@@ -21,6 +21,8 @@ const style = {
     // border: '1px solid white',
     fontFamily: 'Arial, sans-serif',
     fontSize: '0.8em',
+    textAlign: 'justify',
+    color: '#aaaaaa',
 };
   
 export default About;
