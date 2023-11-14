@@ -1,29 +1,5 @@
 /* App.css */
 .App {
-  background-color: #101C3A; /* Dark Blue */
-  color: white; /* Text color */
-  height: 100vh; /* 100% of viewport height */
-  display: flex;
-  /* align-items: center;
-  justify-content: center; */
-}
-
-#Name {
-  font-weight: bold;
-}
-
-#Title {
-  font-weight:normal;
-}
-
-#title-description{
-  font-weight: lighter;
-}
-
-.Info{
-  padding: 5% 0% 0% 15%;
-  margin: 0% 0% 0% 0%;
-  width: 90%;
-  height: 50%;
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  align-items: center;
 }

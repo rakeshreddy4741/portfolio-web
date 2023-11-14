@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
+import About from './components/About'; 
+import Info from './components/Info'; 
 
 function App() {
+  const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    
+  };
   return (
-    <div className="App">
-      <div className='Info'>
-        <h1 id='Name'>Rakesh Vavilala</h1>
-        <h4 id='Title'>Backend Developer</h4>
-        <p id='title-description'>Build accessible, Inclusive products and digital experiences for the web.</p>
-      </div>
-      
+    <div className="App" style={gridContainerStyle}>
+      <Info />
+      <About />
     </div>
   );
 }

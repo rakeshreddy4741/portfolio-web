@@ -1,0 +1,13 @@
+/* StretchLabel.css */
+.stretch-label {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: width 0.3s;
+  }
+  
+.stretch-label.hovered {
+width: 100%;
+}
+  
