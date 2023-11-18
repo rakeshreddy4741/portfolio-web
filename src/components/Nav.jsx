@@ -2,15 +2,10 @@ import React from 'react';
 import StretchLabel from './StrechLabel';
 import HoverEffect from './HoverEffect';
 const Nav = () => {
-    const navStyle = {
-        fontSize: '0.7em',
-        fontFamily: 'Arial, sans-serif',
-        marginLeft: '100px',
-    };
 
     return (
-        <div style={navStyle}>
-            <div className='Nav'>
+        <div>
+            <div className='p-5 text-sm'>
                 <HoverEffect label="Home" />
                 <HoverEffect label="Projects" />
                 <HoverEffect label="About" />

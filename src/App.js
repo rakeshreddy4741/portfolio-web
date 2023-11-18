@@ -1,22 +1,28 @@
 import React from 'react';
 import './App.css';
-import About from './components/About'; 
-import Info from './components/Info'; 
+import About from './components/About';
+import Info from './components/Info';
 import Nav from './components/Nav';
+import Socials from './components/Socials';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 import HoverEffect from './components/HoverEffect';
 
 function App() {
-  const gridContainerStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
-    margin : '0 auto',
-    maxWidth : '1200px',
-  };
+
   return (
-    <div className="App" style={gridContainerStyle}>
-      <Info />
-      <About />
-      <Nav />
+    <div className="grid grid-cols-2 gap-2 max-w-screen-lg mx-auto" >
+      <div className='text-white my-10 ml-10 p-5 sticky top-0' >
+        <Info />
+        <Nav />
+        <Socials />
+      </div>
+      <div className='text-color my-10 mr-16 p-5'>
+        <About />
+        <Experience />
+        <Projects />
+      </div>
+
     </div>
   );
 }
