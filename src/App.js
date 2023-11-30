@@ -11,7 +11,7 @@ import HoverEffect from './components/HoverEffect';
 function App() {
 
   return (
-    <div className="grid grid-cols-2 gap-2 max-w-screen-lg mx-auto" >
+    <div className="grid grid-cols-2 gap-2 max-w-screen-xl mx-auto" >
       <div className='text-white my-10 ml-10 p-5 sticky top-0' >
         <Info />
         <Nav />
